@@ -46,7 +46,7 @@ Este es un proyecto de backend desarrollado en **Java 21** utilizando el framewo
 
 La configuración de la base de datos se gestiona principalmente a través de variables de entorno en `docker-compose.yml` que sobrescriben las propiedades de `application.properties`. Asegúrate de que las credenciales en `docker-compose.yml` sean seguras.
 
--   `SPRING_DATASOURCE_URL`: URL de conexión JDBC (ej. `jdbc:postgresql://db:5432/challenge_db`).
+-   `SPRING_DATASOURCE_URL`: URL de conexión JDBC (ej. `jdbc:postgresql://db:5432/challengebackend`).
 -   `SPRING_DATASOURCE_USERNAME`: Usuario de la base de datos.
 -   `SPRING_DATASOURCE_PASSWORD`: Contraseña de la base de datos.
 
